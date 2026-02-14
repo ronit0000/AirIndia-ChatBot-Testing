@@ -84,7 +84,7 @@ public class ChatBotUtils {
             if (validReplies.size() >= 2) {
                 return validReplies.get(validReplies.size() - 2);
             } else if (validReplies.size() == 1) {
-                return validReplies.get(0);
+                return validReplies.getFirst();
             } else {
                 return "⚠ Could not detect chatbot reply!";
             }

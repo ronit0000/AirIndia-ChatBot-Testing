@@ -50,7 +50,7 @@ public class FlightsFromCity {
             if (flightCards.isEmpty()) {
                 System.out.println("⚠ No flight options found.");
             } else {
-                WebElement selectedFlight = flightCards.get(0);
+                WebElement selectedFlight = flightCards.getFirst();
                 WebElement bookBtn = selectedFlight.findElement(By.xpath(".//button[contains(text(),'Book Flight')]"));
                 wait.until(ExpectedConditions.elementToBeClickable(bookBtn));
                 bookBtn.click();
