@@ -12,35 +12,35 @@ Selenium-based automation for testing Air India's chatbot functionalities.
 
 ### Run Menu-Driven Interface
 ```powershell
-$env:MAVEN_HOME="$env:USERPROFILE\.m2\apache-maven-3.9.9"; $env:Path = "$env:MAVEN_HOME\bin;$env:Path"; cd "c:\Users\lenovo\Desktop\chat-bot\indigo-chatbot-automation"; mvn exec:java "-Dexec.mainClass=com.demo.DriverClass"
+$env:MAVEN_HOME="$env:USERPROFILE\.m2\apache-maven-3.9.9"; $env:Path = "$env:MAVEN_HOME\bin;$env:Path"; cd "c:\Users\lenovo\Desktop\chat-bot\airindia-chatbot-automation"; mvn exec:java "-Dexec.mainClass=com.demo.DriverClass"
 ```
 
 ### Run Specific Tests
 
 **Air India Booking Test:**
 ```powershell
-$env:MAVEN_HOME="$env:USERPROFILE\.m2\apache-maven-3.9.9"; $env:Path = "$env:MAVEN_HOME\bin;$env:Path"; cd "c:\Users\lenovo\Desktop\chat-bot\indigo-chatbot-automation"; mvn exec:java "-Dexec.mainClass=com.demo.AirIndiaBooking"
+$env:MAVEN_HOME="$env:USERPROFILE\.m2\apache-maven-3.9.9"; $env:Path = "$env:MAVEN_HOME\bin;$env:Path"; cd "c:\Users\lenovo\Desktop\chat-bot\airindia-chatbot-automation"; mvn exec:java "-Dexec.mainClass=com.demo.AirIndiaBooking"
 ```
 
 **Flight Status Test:**
 ```powershell
-$env:MAVEN_HOME="$env:USERPROFILE\.m2\apache-maven-3.9.9"; $env:Path = "$env:MAVEN_HOME\bin;$env:Path"; cd "c:\Users\lenovo\Desktop\chat-bot\indigo-chatbot-automation"; mvn exec:java "-Dexec.mainClass=com.demo.FlightStatus"
+$env:MAVEN_HOME="$env:USERPROFILE\.m2\apache-maven-3.9.9"; $env:Path = "$env:MAVEN_HOME\bin;$env:Path"; cd "c:\Users\lenovo\Desktop\chat-bot\airindia-chatbot-automation"; mvn exec:java "-Dexec.mainClass=com.demo.FlightStatus"
 ```
 
 **Travel Guide Test:**
 ```powershell
-$env:MAVEN_HOME="$env:USERPROFILE\.m2\apache-maven-3.9.9"; $env:Path = "$env:MAVEN_HOME\bin;$env:Path"; cd "c:\Users\lenovo\Desktop\chat-bot\indigo-chatbot-automation"; mvn exec:java "-Dexec.mainClass=com.demo.TravelGuide"
+$env:MAVEN_HOME="$env:USERPROFILE\.m2\apache-maven-3.9.9"; $env:Path = "$env:MAVEN_HOME\bin;$env:Path"; cd "c:\Users\lenovo\Desktop\chat-bot\airindia-chatbot-automation"; mvn exec:java "-Dexec.mainClass=com.demo.TravelGuide"
 ```
 
 ### Compile Only
 ```powershell
-$env:MAVEN_HOME="$env:USERPROFILE\.m2\apache-maven-3.9.9"; $env:Path = "$env:MAVEN_HOME\bin;$env:Path"; cd "c:\Users\lenovo\Desktop\chat-bot\indigo-chatbot-automation"; mvn clean compile
+$env:MAVEN_HOME="$env:USERPROFILE\.m2\apache-maven-3.9.9"; $env:Path = "$env:MAVEN_HOME\bin;$env:Path"; cd "c:\Users\lenovo\Desktop\chat-bot\airindia-chatbot-automation"; mvn clean compile
 ```
 
 ## Project Structure
 
 ```
-indigo-chatbot-automation/
+airindia-chatbot-automation/
 ├── src/
 │   └── main/
 │       └── java/

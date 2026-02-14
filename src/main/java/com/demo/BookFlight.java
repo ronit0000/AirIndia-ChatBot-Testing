@@ -21,7 +21,7 @@ public class BookFlight {
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(40));
 
         try {
-            // Step 1: Open IndiGo chat page and click chatbot
+            // Step 1: Open Air India chat page and click chatbot
             ChatBotUtils.openChatBot(driver, wait);
 
             // Step 2: Switch to the iframe
